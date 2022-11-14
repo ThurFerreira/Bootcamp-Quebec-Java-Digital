@@ -1,3 +1,5 @@
+package Ex1.src;
+
 public class Main {
     public static void main(String[] args) throws Exception {
     Aritimetica.soma(3,4);

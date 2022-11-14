@@ -1,3 +1,5 @@
+package Ex3.src;
+
 public class Carro {
     
     int capacidadeTanque;

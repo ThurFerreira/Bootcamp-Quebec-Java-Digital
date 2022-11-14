@@ -1,3 +1,5 @@
+package Ex1.src;
+
 public class Aritimetica {
     
     public static void soma(int a, int b){

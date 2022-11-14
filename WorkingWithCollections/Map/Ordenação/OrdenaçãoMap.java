@@ -1,9 +1,8 @@
 package WorkingWithCollections.Map.Ordenação;
 
-public class Map {
-    import java.util.*;
+import java.util.*;
 
-public class ExemploOrdenacaoMap {
+public class OrdenaçãoMap {
     public static void main(String[] args) {
 
         System.out.println("--\tOrdem aleatória\t--");
@@ -28,16 +27,5 @@ public class ExemploOrdenacaoMap {
         Map<String, Livro> meusLivros2 = new TreeMap<>(meusLivros1);
         for (Map.Entry<String, Livro> livro : meusLivros2.entrySet())
             System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
-
-        System.out.println("--\tOrdem alfabética nomes dos livros\t--");
-
-        Set<Map.Entry<String, Livro>> meusLivros3 = new TreeSet<>(new ComparatorNome());
-        meusLivros3.addAll(meusLivros.entrySet());
-        for (Map.Entry<String, Livro> livro : meusLivros3)
-            System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
-
-//        System.out.println("--\tOrdem número de página\t--"); //Pra você
-
     }
-}
 }

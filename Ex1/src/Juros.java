@@ -1,3 +1,5 @@
+package Ex1.src;
+
 public class Juros {
     public static void CalculaJuros(int valor){
         double valorFinal = valor + (0.8 * valor);

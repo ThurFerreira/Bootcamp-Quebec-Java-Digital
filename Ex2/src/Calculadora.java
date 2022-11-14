@@ -1,3 +1,5 @@
+package Ex2.src;
+
 public class Calculadora {
     
     public static void area(double x, double y){

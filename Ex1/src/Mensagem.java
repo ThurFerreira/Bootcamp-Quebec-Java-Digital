@@ -1,3 +1,5 @@
+package Ex1.src;
+
 public class Mensagem {
 
     public static void Horario(int hora){

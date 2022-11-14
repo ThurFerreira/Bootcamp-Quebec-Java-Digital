@@ -1,3 +1,5 @@
+package Ex2.src;
+
 public class App {
     public static void main(String[] args) throws Exception {
         Calculadora.area(3f); //(valor passado como float "f")

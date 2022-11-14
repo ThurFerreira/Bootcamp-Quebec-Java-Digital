@@ -1,5 +1,5 @@
 //import java.util.Scanner;
-
+package Ex3.src;
 public class Main {
     public static void main(String[] args) throws Exception {
 
